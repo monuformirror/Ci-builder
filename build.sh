@@ -8,6 +8,5 @@ source build/envsetup.sh
 lunch xdroid_X00TD-userdebug
 export TZ=Asia/Shanghai
 #export ALLOW_MISSING_DEPENDENCIES=true
-#export SELINUX_IGNORE_NEVERALLOWS=true
 make xd -j8
 # end
